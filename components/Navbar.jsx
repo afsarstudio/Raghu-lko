@@ -86,6 +86,13 @@ export default function Navbar() {
           </div>
         </div>
 
+        {/* Mobile Drawer Backdrop Overlay */}
+        <div
+          className={`mobile-drawer-overlay ${isDrawerOpen ? "active" : ""}`}
+          onClick={closeDrawer}
+          aria-hidden="true"
+        />
+
         {/* Mobile Drawer Menu */}
         <div className={`mobile-drawer ${isDrawerOpen ? "open" : ""}`} id="mobile-drawer">
           <div className="drawer-header">
