@@ -30,8 +30,8 @@
   --border-dark: rgba(255, 255, 255, 0.12);
   
   /* Typography */
-  --font-serif: 'Playfair Display', Didot, Georgia, serif;
-  --font-sans: 'Outfit', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-serif: 'Playfair Display', Didot, 'Times New Roman', Georgia, serif;
+  --font-sans: 'Outfit', 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   
   /* Elevation & Curves */
   --radius-xs: 4px;
