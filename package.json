@@ -1,13 +1,16 @@
 {
   "name": "raghu-furnishing",
   "version": "1.0.0",
-  "description": "Raghu Furnishing Website",
-  "main": "server.js",
+  "description": "Raghu Furnishing — Lucknow | Bespoke Curtains, Upholstery, Blinds & Luxury Furniture",
+  "private": true,
   "scripts": {
-    "dev": "node server.js",
-    "start": "node server.js"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "next": "^15.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
 }
